@@ -11,6 +11,7 @@
    margin: 0; padding:0; }
 
 body {
+    background-color:#a3c1ad;
     font-family: var(--fuente);
     font-size: 20px;
     color: var(--negro);
@@ -44,15 +45,11 @@ nav ul{
   color:#f9faf7 !important;
 }
 
-.secciones{
-  display:flex;
-  flex-wrap:wrap;
-  gap:1.5rem;  
-}
 .card{
+    
     border: 2px solid;
-    padding: 1.5rem;
-    border-color:var(--verde-claro) ;
+    padding: 1rem;
+    border-color:var(--marron) ;
     border-radius: 10px;
 }
 footer {
@@ -81,4 +78,10 @@ footer a:hover {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.btn-mi-ong {
+    background-color:#4a6b52;
+    color:#a3c1ad;
+    border-color:var(--marron);
 }
