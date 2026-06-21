@@ -1,0 +1,52 @@
+:root{
+--verde-claro: #a3c1ad;
+--verde-oscuro: #4a6b52;
+--marron: #8c6239;
+--blanco: #f4f3ef;
+--negro: #000000 ;
+--fuente: "open sans", sans-serif;
+--fuente2: "georgia", georgia;
+}
+
+
+* { box-sizing: border-box;
+      margin: 0; padding:0; }
+
+      
+body{
+    background-color: var(--blanco);
+}
+
+h1{
+    font-size: 4rem;
+    font-family: var(--fuente);
+    font-style: oblique;
+    background-color: var(--verde-oscuro);
+    text-align: center;
+    color: var(--blanco);
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-family: var(--fuente);
+    font-style: oblique;
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--verde-oscuro);
+}
+
+.col-4 {
+    font-size: 1.5rem;
+    text-align: center;
+    background-image: url();
+    background-repeat: no-repeat;
+}
+
+
+img{
+    height: 5rem;
+    width: 5rem;
+}
