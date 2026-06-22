@@ -86,7 +86,6 @@ article{
     background-color: white;
     box-shadow: 0 4px 10px rgba(0,0,0,.1);
     transition: .2s ease;
-
     word-wrap: break-word;
 }
 
@@ -105,4 +104,16 @@ footer{
     background-color: var(--verde-oscuro);
     color: var(--blanco);
     padding: 1rem;
+}
+
+
+
+.contenedor-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contenedor-cards .card{
+    flex: 1 1 280px;
 }
