@@ -85,3 +85,8 @@ img {
     color:#a3c1ad;
     border-color:var(--marron);
 }
+
+body.oscuro {
+ background-color: #1a1a1a;
+ color: var(--verde-claro);
+}
