@@ -4,6 +4,8 @@
 --marron: #8c6239;
 --blanco: #f4f3ef;
 --negro: #000000 ;
+--color-tarjeta: #f9faf7;
+--color-texto-tarjeta: #2c2a29;
 --fuente: "open sans", sans-serif;
 }
 
@@ -46,7 +48,8 @@ nav ul{
 }
 
 .card{
-    
+    color:var(--color-texto-tarjeta);
+    background-color:var(--color-tarjeta);
     border: 2px solid;
     padding: 1rem;
     border-color:var(--marron) ;
@@ -88,5 +91,27 @@ img {
 
 body.oscuro {
  background-color: #1a1a1a;
- color: var(--verde-claro);
+ color: #f7f9fa;
+ --color-tarjeta:#2d2d2d;
+ --color-texto-tarjeta: #F7F9FA;
+}
+
+#btn-modo {
+  padding: 2px 2px;
+  font-size: 14px;
+  font-weight: bold;
+
+  border: 2px solid var(--marron);
+  border-radius: 10px;
+
+  background-color: var(--verde-oscuro);
+  color: var(--verde-claro);
+  cursor: pointer;
+  
+  transition: all 0.3s ease;
+}
+
+#btn-modo:hover {
+  background-color: var(--marron);
+  transform: scale(1.05); 
 }
