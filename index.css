@@ -17,7 +17,7 @@ body{
     background-color: var(--blanco);
 }
 
-h1{
+header{
     font-size: 4rem;
     font-family: var(--fuente);
     font-style: oblique;
