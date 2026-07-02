@@ -2,123 +2,120 @@
 <html lang="es">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programas de "Nosotros por los Animales"</title>
-
+    <title> Programas de "nosotros por los animales" </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/programas.css" />
+    
 
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/programas.css">
 </head>
 
 <body>
 
     <header>
-        <h1 id="Programas"><i>Programas De Nuestra ONG</i></h1>
+            <nav class="navbar navbar-expand-md navbar-light mi-nav-personalizada">
+              <div class="container-fluid">
+                 <a class="navbar-brand fw-bold align-items-center" href="index.html">
+                <img src="img/logo-ong.jpeg" alt="Logo de la ONG"  width="50" height="50" class="d-inline-block align-text-top me-2">
+                <span class="fw-bold text-white">Nosotros por los animales</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ms-auto">
+                       <li class="nav-item">
+                          <a class="nav-link" href="Index.html"> Ir al inicio</a>
+                       </li>
+                       <li class="nav-item">
+                         <a class="nav-link" href="tp1 taller Programas.html"> Nuestros programas</a>
+                       </li>
+                       <li>
+                         <a class="nav-link" href="nosotros.html">Nosotros</a>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link active" href="contacto.html"> Contactanos</a>
+                        </li>
+                        <li class="nav-item"><button id="btn-modo"> Modo oscuro 🌙</button></li>
+                    </ul>
+                 </div>
+             </div>
+           </nav>   
+        <i>
+            <h1 id="Programas">Programas De Nuestra ONG</h1>
+        </i>
+
     </header>
 
     <main>
+        <section>
+            <h2> Que hacemos </h2>
+            <p> En nuestra ONG nos propusimos hacer un cambio en la vida de los animales que viven en la calle tomando
+                medidas y promoviendo el cuidado de ellos. tomamos muchas medidas pero las principales son las
+                siguientes: </p>
+        </section>
+
 
         <section>
-            <h2>¿Qué hacemos?</h2>
+            <article class="card">
 
-            <p>
-                En nuestra ONG nos propusimos hacer un cambio en la vida de los animales que viven en la calle tomando
-                medidas y promoviendo el cuidado de ellos. Tomamos muchas medidas, pero las principales son las siguientes:
-            </p>
-        </section>
-
-        <br>
-
-        <section class="secciones">
-
-            <div class="contenedor-cards">
-
-                <article class="card">
-
-                    <h3>Ayudamos a los animales que viven en la calle</h3>
-
-                    <pre>Brindamos alimento, agua y cuidados básicos a animales en situación de calle para mejorar su día a día. Nos enfocamos principalmente en
+                <h3>Ayudamos a los animales que viven en la calle</h3>
+                <p>Brindamos alimento, agua y cuidados básicos a animales en situación de calle para mejorar su día a día. Nos enfocamos principalmente en 
 perros y gatos que deambulan por zonas urbanas, donde muchas veces no reciben ningún tipo de atención. Además, realizamos recorridas para
-detectar casos urgentes y dar una respuesta rápida cuando la situación lo requiere.
+detectar casos urgentes y dar una respuesta rápida cuando la situación lo requiere.<strong>Si tenes informacion de algun caso en el que podamos
+ayudar <a id="links" href="Contacto.html">Contactate Con Nosotros</a></strong>
+  
+</p>
+            </article>
 
-<strong>Si tenés información de algún caso en el que podamos ayudar <a class="links" href="Contacto.html">Contactate con Nosotros</a></strong></pre>
+            <article class="card">
 
-                </article>
-
-                <article class="card">
-
-                    <h3>Rescatamos y damos animales en adopción</h3>
-
-                    <pre><strong>Intervenimos en casos de abandono o peligro</strong>, rescatando animales para luego rehabilitarlos y prepararlos para una nueva vida. Durante este proceso
+                <h3>Rescatamos y damos animales en adopcion</h3>
+                <p><strong>Intervenimos en casos de abandono o peligro</strong>, rescatando animales para luego rehabilitarlos y prepararlos para una nueva vida. Durante este proceso
 se les brinda atención veterinaria, contención y tiempo de recuperación. También podés involucrarte transitando temporalmente o difundiendo los casos
-para que encuentren un hogar definitivo.</pre>
+para que encuentren un hogar definitivo.</p>
+            </article>
 
-                </article>
+            <article class="card">
 
-                <article class="card">
+                <h3>Colaboramos con denuncias de maltrato animal</h3>
+                <p>Acompañamos procesos de denuncia ante situaciones de maltrato, brindando orientación a quienes no saben cómo actuar o a dónde acudir. Además, <strong>buscamos
+visibilizar estos casos</strong> para generar conciencia y evitar que se repitan. La participación de la gente es clave para que estas situaciones no queden ocultas.
+</p>
+            </article>
 
-                    <h3>Colaboramos con denuncias de maltrato animal</h3>
+            <article class="card">
 
-                    <pre>Acompañamos procesos de denuncia ante situaciones de maltrato, brindando orientación a quienes no saben cómo actuar o a dónde acudir. Además,
-<strong>buscamos visibilizar estos casos</strong> para generar conciencia y evitar que se repitan. La participación de la gente es clave para que estas situaciones no queden ocultas.</pre>
-
-                </article>
-
-                <article class="card">
-
-                    <h3>Recaudamos fondos para ayudar a animales en situaciones críticas</h3>
-
-                    <pre><strong>Realizamos campañas solidarias destinadas a cubrir gastos veterinarios</strong>, medicamentos y tratamientos complejos. Muchos de los casos que atendemos
+                <h3>Recaudamos fondos para ayudar a animales en situaciones criticas</h3>
+                <p><strong>Realizamos campañas solidarias destinadas a cubrir gastos veterinarios</strong>, medicamentos y tratamientos complejos. Muchos de los casos que atendemos
 requieren intervenciones urgentes, por lo que el apoyo económico y la difusión cumplen un rol fundamental para poder actuar a tiempo.</pre>
+            </article>
 
-                </article>
+            <article class="card">
 
-                <article class="card">
-
-                    <h3>Estamos presentes en campañas de vacunación y castración</h3>
-
-                    <pre><strong>Participamos en jornadas comunitarias</strong> enfocadas en la prevención de enfermedades y el control de la población animal. Estas acciones ayudan
+                <h3>Estamos presentes en campañas de vacunacion y castracion</h3>
+                <p><strong>Participamos en jornadas comunitarias</strong> enfocadas en la prevención de enfermedades y el control de la población animal. Estas acciones ayudan
 a reducir el abandono y mejorar la calidad de vida general. También es posible sumarse como voluntario o acercar animales para que reciban la atención necesaria.</pre>
-
-                </article>
-
-            </div>
-
+            </article>
         </section>
-
         <br>
-
         <aside>
-
-            <p>
-                Si te interesa formar parte de nuestro equipo, contactate con nosotros por redes sociales, mail o por nuestro número de teléfono
-                <a class="links" href="Contacto.html">haciendo click aquí</a>.
+            <p>Si te interesa formar parte de nuestro equipo Contactate con nosotros por redes sociales, mail o por
+                nuestro numero de telefono
+                <a id="links" href="Contacto.html"> Haciendo Click Aqui</a>
             </p>
-
         </aside>
-
     </main>
 
-    <nav>
 
-        <h2>Navegación</h2>
-
-        <ul>
-            <li><a href="Index.html">Ir al índice</a></li>
-            <li><a href="Nosotros.html">Quiénes somos</a></li>
-        </ul>
-
-    </nav>
 
     <footer>
-
-        <p>&copy; 2026 Nosotros por los Animales - Todos los derechos reservados.</p>
-
+        <p>Copyright © 2024 Nosotros por los Animales. Todos los derechos reservados.</p>
     </footer>
+    
 
 </body>
 
