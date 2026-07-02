@@ -1,0 +1,84 @@
+:root{
+--verde-claro: #a3c1ad;
+--verde-oscuro: #4a6b52;
+--marron: #8c6239;
+--blanco: #f4f3ef;
+--negro: #000000 ;
+--fuente: "open sans", sans-serif;
+--fuente2: "georgia", georgia;
+}
+
+
+* { box-sizing: border-box;
+      margin: 0; padding:0; }
+
+      
+body{
+    background-color: var(--blanco);
+}
+
+h1{
+    font-size: 4rem;
+    font-family: var(--fuente);
+    font-style: oblique;
+    background-color: var(--verde-oscuro);
+    text-align: center;
+    color: var(--blanco);
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-family: var(--fuente);
+    font-style: oblique;
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--verde-oscuro);
+}
+
+
+.logo{
+    height: 5rem;
+    width: 5rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #f8f9fa;
+}
+
+.card-header{
+background-color: var(--verde-claro);
+
+}
+
+footer{
+    background-color: var(--verde-oscuro);
+    padding: 1rem;
+}
+
+.btn-success{
+    background-color: var(--verde-claro);
+    border-color: var(--verde-claro);
+    color: white;
+}
+
+.oscuro{
+    background-color: #121212;
+    color: white;
+}
+.oscuro .card{
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.oscuro .card-header{
+    background-color: #2d4f3d;
+}
