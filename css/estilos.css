@@ -1,0 +1,293 @@
+
+:root{
+    --verde-claro: #a3c1ad;
+    --verde-oscuro: #4a6b52;
+    --marron: #8c6239;
+    --blanco: #f4f3ef;
+    --negro: #000000;
+    --color-tarjeta: #f9faf7;
+    --color-texto-tarjeta: #2c2a29;
+    --fuente: "Open Sans", sans-serif;
+    --fuente2: "Georgia", serif;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: var(--blanco);
+    font-family: var(--fuente);
+    font-size: 20px;
+    color: var(--negro);
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    line-height: 1.6;
+}
+
+body.oscuro{
+    background-color: #1a1a1a;
+    color: #f7f9fa;
+
+    --color-tarjeta: #2d2d2d;
+    --color-texto-tarjeta: #f7f9fa;
+}
+
+
+
+header{
+    background-color: var(--verde-oscuro);
+    color: var(--blanco);
+    padding: 1rem;
+}
+
+
+
+main{
+    margin-top: 2rem;
+}
+
+
+
+h1{
+    font-size: 4rem;
+    font-family: var(--fuente);
+    font-style: oblique;
+    background-color: var(--verde-oscuro);
+    color: var(--blanco);
+    text-align: center;
+}
+
+h1,
+h2,
+h3{
+    margin-bottom: 1rem;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: var(--negro);
+    font-family: var(--fuente);
+    font-style: oblique;
+    font-weight: bold;
+    transition: .2s;
+}
+
+a:hover{
+    color: var(--verde-oscuro);
+}
+
+.links{
+    color: var(--verde-claro);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.links:hover{
+    color: #f9faf7;
+}
+
+
+
+nav{
+    margin: 2rem 0;
+}
+
+nav ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin-top: .5rem;
+}
+
+nav a{
+    color: var(--verde-claro);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+
+
+.mi-nav-personalizada{
+    background-color: var(--verde-oscuro) !important;
+}
+
+.mi-nav-personalizada .navbar-nav .nav-link{
+    color: var(--verde-claro) !important;
+}
+
+.mi-nav-personalizada .navbar-nav .nav-link:hover{
+    color: white !important;
+}
+
+
+
+.secciones{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contenedor-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contenedor-cards .card{
+    flex: 1 1 280px;
+}
+
+
+
+article{
+    margin-bottom: 1.5rem;
+}
+
+
+
+.card{
+    background-color: var(--color-tarjeta);
+    color: var(--color-texto-tarjeta);
+
+    border: 2px solid var(--marron);
+    border-radius: 10px;
+
+    padding: 1.5rem;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,.10);
+
+    transition: .25s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+.img-icono{
+    width: 5rem;
+    height: 5rem;
+}
+
+
+
+pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-family: var(--fuente);
+}
+
+
+
+.col-4{
+    font-size: 1.5rem;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.btn-mi-ong{
+    background-color: var(--verde-oscuro);
+    color: var(--verde-claro);
+    border: 2px solid var(--marron);
+}
+
+.btn-mi-ong:hover{
+    background-color: var(--marron);
+    color: white;
+}
+
+#btn-modo{
+    padding: 2px 8px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    border: 2px solid var(--marron);
+    border-radius: 10px;
+
+    background-color: var(--verde-oscuro);
+    color: var(--verde-claro);
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+#btn-modo:hover{
+    background-color: var(--marron);
+    color: white;
+    transform: scale(1.05);
+}
+
+
+
+footer{
+    background-color: var(--verde-oscuro);
+    color: var(--blanco);
+    padding: 1rem;
+}
+
+footer p,
+footer small{
+    color: var(--verde-claro);
+}
+
+footer a{
+    color: var(--verde-claro);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover{
+    color: white;
+}
+
+
+.col-4{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
